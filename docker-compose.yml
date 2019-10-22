@@ -2,6 +2,7 @@ version: '2'
 
 services:
   kutt:
+    build: .
     container_name: kutt
     links:
       - neo4j
